@@ -25,7 +25,7 @@ logger.info("=" * 50)
 # ==========================================
 # 1. Multithreading Configuration for S21
 # ==========================================
-NUM_THREADS = 4
+NUM_THREADS = 1
 torch.set_num_threads(NUM_THREADS)
 torch.set_num_interop_threads(2)
 os.environ["OMP_NUM_THREADS"] = str(NUM_THREADS)
